@@ -1,0 +1,124 @@
+.carousel-item
+{
+	height: 100vh;
+	min-height: 300px;
+	background: no-repeat center center scroll;
+	background-size: cover;
+}
+.carousel-caption 
+{
+	bottom: 270px;
+}
+.carousel-caption h5{
+	font-size: 45px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 25px;
+}
+.carousel-caption p
+{
+	width: 75%;
+	margin: auto;
+	font-size: 18px;
+	line-height: 1.9; 
+}
+.navbar-dark .navbar-brand{
+	color: #fd0e35;
+	font-size: 2.2em;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+#Brand
+{
+   color: #fd0e35;
+   font-size: 50px;
+   font-family: 'Lacquer', sans-serif;
+}
+.nav-link
+{
+   padding: 0 10em 0 10em;
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover
+{
+	color: #fff;
+}
+.navbar-dark .navbar-nav{
+	padding: 0.5em 0 0 9em;
+}
+.navbar-dark .navbar-nav .active .nav-link
+{
+	font-size: 1.8em;
+	padding: 0.5em 2em 0 0;
+	font-family: 'Saira Stencil One', cursive;
+	text-transform: capitalize;
+}
+.navbar-dark .navbar-nav .nav-item .nav-link
+{
+	font-size: 1.8em;
+	padding: 0.5em 2em 0 0;
+	font-family: 'Saira Stencil One', cursive;
+	text-transform: capitalize;
+}
+.img1
+{
+	width: 20%;
+	margin: 1.66%;
+}
+hr {
+    width: 600px;
+    border-top: 1px solid #15eaea;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.images .container h3
+{
+	font-size: 20em;
+}
+.fullscreen-bg {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+}
+
+.fullscreen-bg__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    height: 300%;
+    top: -100%;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    width: 300%;
+    left: -100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .fullscreen-bg {
+    background: url('../img/videoframe.jpg') center center / cover no-repeat;
+  }
+
+  .fullscreen-bg__video {
+    display: none;
+  }
+}
+#action
+{
+	font-size: 90px;
+	padding-right: 50em;
+	color: #15eaea;
+    font-family: 'Saira Stencil One', cursive;
+}
